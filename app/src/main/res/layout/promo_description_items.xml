@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/edit_text_box"
+    android:gravity="center_vertical"
+    android:padding="@dimen/_5sdp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.6"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Promo description"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/deleteBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:src="@drawable/ic_delete"
+        app:tint="@color/red" />
+
+</LinearLayout>

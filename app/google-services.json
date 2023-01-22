@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "35572347601",
+    "firebase_url": "https://hazon-tech.firebaseio.com",
+    "project_id": "hazon-tech",
+    "storage_bucket": "hazon-tech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35572347601:android:d6ace489f3a59403a14bf0",
+        "android_client_info": {
+          "package_name": "com.gdm.alphageek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35572347601-v7lhmsbb2hf2rad1tvvopj28vd5ilm7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBub15eI6merC5T6PC-vRqhqTcQUZmKvzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35572347601-v7lhmsbb2hf2rad1tvvopj28vd5ilm7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

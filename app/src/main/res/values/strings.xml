@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Alphageek Merchandising</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="prefix_five">
+        <item>07029</item>
+        <item>07028</item>
+        <item>07027</item>
+        <item>07026</item>
+        <item>07025</item>
+    </string-array>
+
+
+    <string-array name="prefix_four">
+        <item>0909</item>
+        <item>0908</item>
+        <item>0907</item>
+        <item>0906</item>
+        <item>0905</item>
+        <item>0903</item>
+        <item>0902</item>
+        <item>0819</item>
+        <item>0818</item>
+        <item>0817</item>
+        <item>0816</item>
+        <item>0815</item>
+        <item>0814</item>
+        <item>0813</item>
+        <item>0812</item>
+        <item>0811</item>
+        <item>0810</item>
+        <item>0809</item>
+        <item>0808</item>
+        <item>0807</item>
+        <item>0806</item>
+        <item>0805</item>
+        <item>0804</item>
+        <item>0803</item>
+        <item>0802</item>
+        <item>0709</item>
+        <item>0708</item>
+        <item>0707</item>
+        <item>0706</item>
+        <item>0705</item>
+        <item>0704</item>
+        <item>0703</item>
+        <item>0702</item>
+        <item>0701</item>
+    </string-array>
+
+
+    <string-array name="items">
+        <item>test1</item>
+        <item>test2</item>
+        <item>test3</item>
+        <item>test4</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Status</item>
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+
+    <string-array name="stores">
+        <item>Select store</item>
+        <item>Store one</item>
+        <item>Store two</item>
+        <item>Store three</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Select Location</item>
+        <item>Location one</item>
+        <item>Location two</item>
+        <item>Location three</item>
+    </string-array>
+
+    <string-array name="detailing_status">
+        <item>Select Detailing Status</item>
+        <item>InProgress</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string-array name="brand_name">
+        <item>Select Brand Name</item>
+        <item>Cocacola</item>
+        <item>Pepsi</item>
+        <item>test3</item>
+        <item>test4</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="country">
+        <item>Select Country</item>
+        <item>Bangladesh</item>
+        <item>Nigeria</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>Select State</item>
+        <item>Dhaka</item>
+        <item>Khulna</item>
+    </string-array>
+
+    <string-array name="lga">
+        <item>Select LGA</item>
+        <item>Dhaka</item>
+        <item>Khulna</item>
+    </string-array>
+
+    <string-array name="education">
+        <item>Education</item>
+        <item>SSC</item>
+        <item>HSC</item>
+        <item>BSC</item>
+    </string-array>
+
+    <string-array name="bank">
+        <item>Select Bank</item>
+        <item>DBBL</item>
+        <item>City Bank</item>
+        <item>BSC</item>
+    </string-array>
+    <string name="facing_quantity">Quantity/Facing</string>
+    <string name="cas">Case</string>
+    <string name="unit">Unit</string>
+    <string name="change_view">Change View</string>
+
+    <string name="satellite">Satellite</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="normal">Normal</string>
+    <string name="none">None</string>
+    <string name="terrain">Terrain</string>
+
+    <string name="logout">Logout</string>
+    <string name="are_you_sure_to_logout">Are you sure to logout?</string>
+    <string name="share">Share</string>
+    <string name="outlet_name">Outlet Name</string>
+    <string name="phone_no">Phone No</string>
+    <string name="location">Location</string>
+    <string name="nigeria">nigeria</string>
+    <string name="schedule_date">Schedule Date</string>
+    <string name="google_maps_key">AIzaSyBQm_PBeQl5oIaRlnOKYKLDATz-co1CyNw</string>
+    <string name="no_message_in_your_inbox">No message in your inbox</string>
+</resources>

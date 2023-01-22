@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/dashboardFragment">
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.gdm.alphageek.view.ui.module.common.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/inboxDetailsFragment"
+        android:name="com.gdm.alphageek.view.ui.module.common.inbox.InboxDetailsFragment"
+        android:label="Inbox Details"
+        tools:layout="@layout/fragment_inbox_details" />
+    <fragment
+        android:id="@+id/inboxFragment"
+        android:name="com.gdm.alphageek.view.ui.module.common.inbox.InboxFragment"
+        android:label="Inbox"
+        tools:layout="@layout/fragment_inbox" />
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.gdm.alphageek.view.ui.module.common.schedule.ScheduleFragment"
+        android:label="Visit Schedule"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/routePlanFragment"
+        android:name="com.gdm.alphageek.view.ui.module.outlet_recruitment.RoutePlanFragment"
+        android:label="Route Plan"
+        tools:layout="@layout/fragment_route_plan" />
+    <fragment
+        android:id="@+id/createScheduleFragment"
+        android:name="com.gdm.alphageek.view.ui.module.common.schedule.CreateScheduleFragment"
+        android:label="Create Schedule"
+        tools:layout="@layout/fragment_create_schedule" />
+    <fragment
+        android:id="@+id/outletRecruitmentVisit"
+        android:name="com.gdm.alphageek.view.ui.module.outlet_recruitment.OutletRecruitmentVisit"
+        android:label="Store Visit"
+        tools:layout="@layout/fragment_outlet_recruitment_visit" />
+    <fragment
+        android:id="@+id/productAvailability"
+        android:name="com.gdm.alphageek.view.ui.module.product_merchandising.ProductAvailability"
+        android:label="Product Availability"
+        tools:layout="@layout/fragment_product_availability" />
+    <fragment
+        android:id="@+id/productMerchandising"
+        android:name="com.gdm.alphageek.view.ui.module.product_merchandising.ProductMerchandising"
+        android:label="Product Merchandising"
+        tools:layout="@layout/fragment_product_merchandising" />
+    <fragment
+        android:id="@+id/productMerchandisingImage"
+        android:name="com.gdm.alphageek.view.ui.module.product_merchandising.ProductMerchandisingImage"
+        android:label="Product Merchandising"
+        tools:layout="@layout/fragment_product_merchandising_image" />
+    <fragment
+        android:id="@+id/storeDetailingDashboardFragment"
+        android:name="com.gdm.alphageek.view.ui.module.store_detailing.StoreDetailingDashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_store_detailing_dashboard" />
+    <fragment
+        android:id="@+id/detailingScheduleListFragment"
+        android:name="com.gdm.alphageek.view.ui.module.store_detailing.DetailingScheduleListFragment"
+        android:label="Store Detailed Schedules"
+        tools:layout="@layout/fragment_detailing_schedule_list" />
+    <fragment
+        android:id="@+id/storeDetailNotesFragment"
+        android:name="com.gdm.alphageek.view.ui.module.store_detailing.StoreDetailNotesFragment"
+        android:label="Store Detailed Note"
+        tools:layout="@layout/fragment_store_detail_notes" />
+    <fragment
+        android:id="@+id/createStoreDetailNotesFragment"
+        android:name="com.gdm.alphageek.view.ui.module.store_detailing.CreateStoreDetailNotesFragment"
+        android:label="Create Note &amp; Images"
+        tools:layout="@layout/fragment_create_store_detail_notes" />
+    <fragment
+        android:id="@+id/posmTrackingFragment"
+        android:name="com.gdm.alphageek.view.ui.module.posm.PosmTrackingFragment"
+        android:label="POSM Tracking"
+        tools:layout="@layout/fragment_posm_tracking" />
+    <fragment
+        android:id="@+id/posmDeploymentFragment"
+        android:name="com.gdm.alphageek.view.ui.module.posm.PosmDeploymentFragment"
+        android:label="POSM Deployment"
+        tools:layout="@layout/fragment_posm_deployment" />
+    <fragment
+        android:id="@+id/competingTrackingFragment"
+        android:name="com.gdm.alphageek.view.ui.module.competing_tracking.CompetingTrackingFragment"
+        android:label="Product Tracking"
+        tools:layout="@layout/fragment_competing_tracking" />
+    <fragment
+        android:id="@+id/productCompetingImageFragment"
+        android:name="com.gdm.alphageek.view.ui.module.competing_tracking.ProductCompetingImageFragment"
+        android:label="Competition"
+        tools:layout="@layout/fragment_product_competing_image" />
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.gdm.alphageek.view.ui.module.common.notes.NotesFragment"
+        android:label="Note (Feedback)"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/productExpiryFragment"
+        android:name="com.gdm.alphageek.view.ui.module.product_freshness.ProductExpiryFragment"
+        android:label="Product Expiry"
+        tools:layout="@layout/fragment_product_expiry" />
+    <fragment
+        android:id="@+id/productExpiryImageFragment"
+        android:name="com.gdm.alphageek.view.ui.module.product_freshness.ProductExpiryImageFragment"
+        android:label="Product Expiry Image"
+        tools:layout="@layout/fragment_product_expiry_image" />
+    <fragment
+        android:id="@+id/outOfStockTrackingFragment"
+        android:name="com.gdm.alphageek.view.ui.module.out_of_stock.OutOfStockTrackingFragment"
+        android:label="Product Tracking"
+        tools:layout="@layout/fragment_out_of_stock_tracking" />
+    <fragment
+        android:id="@+id/planogramCheckFragment"
+        android:name="com.gdm.alphageek.view.ui.module.planogram.PlanogramCheckFragment"
+        android:label="Planogram"
+        tools:layout="@layout/fragment_planogram_check" />
+    <fragment
+        android:id="@+id/planogramImageFragment"
+        android:name="com.gdm.alphageek.view.ui.module.planogram.PlanogramImageFragment"
+        android:label="Planogram Check"
+        tools:layout="@layout/fragment_planogram_image" />
+    <fragment
+        android:id="@+id/priceCheckFragment"
+        android:name="com.gdm.alphageek.view.ui.module.price_check.PriceCheckFragment"
+        android:label="Pricing Check"
+        tools:layout="@layout/fragment_price_check" />
+    <fragment
+        android:id="@+id/productOrderingFragment"
+        android:name="com.gdm.alphageek.view.ui.module.product_ordering.ProductOrderingFragment"
+        android:label="Product Order"
+        tools:layout="@layout/fragment_product_ordering" />
+    <fragment
+        android:id="@+id/createOutletFragment"
+        android:name="com.gdm.alphageek.view.ui.module.common.outlet.CreateOutletFragment"
+        android:label="Create Outlet"
+        tools:layout="@layout/fragment_create_outlet" />
+    <fragment
+        android:id="@+id/priceCheckImageFragment"
+        android:name="com.gdm.alphageek.view.ui.module.price_check.PriceCheckImageFragment"
+        android:label="Pricing Check Image"
+        tools:layout="@layout/fragment_price_check_image" />
+    <fragment
+        android:id="@+id/createDetailingSchedule"
+        android:name="com.gdm.alphageek.view.ui.module.store_detailing.CreateDetailingSchedule"
+        android:label="Create Detailing Schedule"
+        tools:layout="@layout/fragment_create_detailing_schedule" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.gdm.alphageek.view.ui.module.outlet_recruitment.MapsFragment"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/outletListFragment"
+        android:name="com.gdm.alphageek.view.ui.module.common.outlet.OutletListFragment"
+        android:label="Outlets"
+        tools:layout="@layout/fragment_outlet_list" />
+    <fragment
+        android:id="@+id/helpAndSupportFragment"
+        android:name="com.gdm.alphageek.view.ui.module.common.help.HelpAndSupportFragment"
+        android:label="Help &amp; Support"
+        tools:layout="@layout/fragment_help_and_support" />
+</navigation>
